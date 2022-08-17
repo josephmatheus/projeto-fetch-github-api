@@ -38,7 +38,7 @@ main {
 .container {
   width: 60%; /* se for uma tela menor que 980px vai se adaptar a 70% */
   max-width: 960px; /* quando chegar em 980px para de aumentar */
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -127,7 +127,8 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 70px;  
+  margin-top: 70px;
+  margin-bottom: 20px;  
 }
 
 .container .profile-data .counters h4{
