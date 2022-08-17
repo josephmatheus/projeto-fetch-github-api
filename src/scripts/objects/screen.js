@@ -24,7 +24,7 @@ const screen = {
                                                                             <i class="forks">🍴 ${repo.forks_count}</i>
                                                                             <i class="stars">⭐ ${repo.stargazers_count}</i>
                                                                             <i class="watchers">👀 ${repo.watchers_count}</i>
-                                                                            <i class="language">👨‍💻 ${repo.language ?? 'Texto (.txt)'}</i>
+                                                                            <i class="language">👨‍💻 ${repo.language}</i>
                                                                         </a>
                                                                      </li>`)
             this.userProfile.innerHTML += ` <div class="repositories section">
